@@ -1,0 +1,131 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #80cbc4;
+  
+}
+
+/* Toggle Styles */
+
+#sidebar {
+  position: absolute;
+  left: 250px;
+  width: 0px;
+  margin-left: -235px;
+  background: #80cbc4;
+}
+
+/* Sidebar Styles */
+
+#sidebar header {
+  background-color: #80cbc4;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav {}
+
+#sidebar .nav a {
+  background: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+#sidebar .nav a:hover {
+  background: none;
+  color: #fff;
+}
+
+#sidebar .nav a i {
+  margin-right: 160px;
+}
+
+/* SLIDER*/
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel {
+  left: 299px;
+}
+
+/* formulario*/
+
+section {
+  background-color: #4db6ac;
+  height: 430px;
+  margin-top: -15px;
+}
+
+.btn {
+  background-color: black;
+}
+
+/* footer*/
+
+.page-footer {
+  background-color: #009688;
+}
+
+.colorSocial {
+  color: rgba(0, 0, 0, 0.767);
+}
+
+/* PRODUCTOS*/
+
+.cartas {
+  margin-left: 299px;
+  padding-left: 50px;
+  background-color: #fff;
+}
+
+.espacioPaddingTop {
+  padding-top: 40px;
+}
+
+/* RESPONSIVE*/
+
+@media screen and (max-width: 375px) {
+  .carousel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .nav a {
+    padding: 10px;
+    margin-left: 139px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cartas {
+    position: relative;
+    margin-left: 0px;
+  }
+}
